@@ -15,7 +15,7 @@ public:
 
     // 回傳一顆好晶片的索引；若無法找到則回傳 -1
     int findGoodChip(vector<int> chips) {
-      
+        
     while (true) {
         int n = chips.size();
 
@@ -46,10 +46,7 @@ public:
 
         // 6. 刪除 A
         chips.erase(chips.begin());
-    }
-
-    return -1;
-}
+    
         // TODO:
         // 反覆執行下列步驟：
         //
@@ -66,8 +63,9 @@ public:
         //
         // 6. 否則刪除 A，對剩下的晶片重複測試
 
-        // 請修改
-    
+        return -1; // 請修改
+    }
+};
 
 int main() {
     // 範例：6 顆晶片，編號 0~5
