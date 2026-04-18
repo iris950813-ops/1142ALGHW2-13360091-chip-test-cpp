@@ -64,7 +64,7 @@ public:
         // 6. 否則刪除 A，對剩下的晶片重複測試
 
         return -1; // 請修改
-    
+    }
 };
 
 int main() {
@@ -95,4 +95,4 @@ int main() {
     }
 
     return 0;
-}
+
